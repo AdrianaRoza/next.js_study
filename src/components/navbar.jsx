@@ -17,6 +17,17 @@ const Navbar = () => {
           </Link>
           </li>
 
+          <li>
+          <Link href="/todos"
+            className="group text-white no-underline 
+            transition duration-300"
+          >
+            <span className="text-white group-hover:text-gray-400">
+              Tarefas
+            </span>
+          </Link>
+        </li>
+
         <li>
           <Link href="/products"
             className="group text-white no-underline 
