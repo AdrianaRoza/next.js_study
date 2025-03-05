@@ -29,10 +29,15 @@ export default function RootLayout({
     <html lang="en">
       
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} 
+          antialiased min-h-screen flex flex-col`}
+        style={{ border: '2px ' }}
+        >
         <Navbar/>
-        <div className="min-h-[60vh] p-5 text-center">{children}</div>        
+        <div 
+          className="flex-1 p-5 text-center" 
+          style={{ border: '2px' }}>{children}
+        </div>        
         <Footer/>
         
       </body>

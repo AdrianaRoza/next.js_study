@@ -15,7 +15,7 @@ const Todos: FC = async () => {
 
   return(
     <>
-      <h1 className="text-4xl" >Tarefas para Fazer:</h1>
+      <h1 className="text-4xl text-purple-500" >Tarefas para Fazer:</h1>
       <ul className="list-none w-[500px] mx-auto m-4">
         {todos.map((todo) => (
           <li key={todo.id} className="mb-4 pb-4 border-b border-gray-300">
